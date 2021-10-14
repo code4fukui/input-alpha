@@ -2,8 +2,8 @@ import { AlphaValidator } from "./AlphaValidator.js";
 import { InputWithValidator } from "https://code4fukui.github.io/input-number/InputWithValidator.js";
 
 class InputAlpha extends InputWithValidator {
-  constructor() {
-    super(new AlphaValidator());
+  constructor(opts) {
+    super(new AlphaValidator(), opts);
   }
 }
 

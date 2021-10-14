@@ -22,7 +22,7 @@ Deno.test("normalize", () => {
   t.assertEquals(v.normalize("."), ".");
   t.assertEquals(v.normalize("A"), "A");
   t.assertEquals(v.normalize("あ"), "");
-  t.assertEquals(v.normalize(""), null);
+  t.assertEquals(v.normalize(""), "");
 });
 Deno.test("validate", () => {
   const v = new AlphaValidator();

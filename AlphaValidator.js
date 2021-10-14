@@ -11,7 +11,7 @@ class AlphaValidator extends Validator {
   }
   normalize(c) {
     if (c == "") {
-      return null;
+      return "";
     }
     if (ZenkakuAlpha.isHan(c)) {
       return c;
