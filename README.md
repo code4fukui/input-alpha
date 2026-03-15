@@ -1,5 +1,7 @@
 # input-alpha
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A custom HTML element for input of alpha-numeric characters.
 
 ## Demo
