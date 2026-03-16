@@ -1,6 +1,6 @@
 # input-alpha
 
-入力フォームで英数字と一部の記号のみを入力できる入力フィールドを提供するWebコンポーネントです。
+入力フィールドで英数字とアンダースコア、ハイフン、ピリオド、ドル記号のみが入力できるWebコンポーネントです。全角文字は自動的に半角に変換されます。また`maxlength`属性を使って最大入力文字数を指定できます。
 
 ## デモ
 https://code4fukui.github.io/input-alpha/
@@ -11,6 +11,7 @@ https://code4fukui.github.io/input-alpha/
 - `maxlength`属性によって最大入力文字数を指定できる
 
 ## 使い方
+
 HTMLに以下のように記述します:
 
 ```html
